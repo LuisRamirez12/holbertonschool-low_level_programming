@@ -4,10 +4,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	printf("\n\nLower case characters:\n");
-	for(i='a'; i<='z'; i++)
-        printf("%c ",i);
-	return (0);
+char ch;
+putchar ("\nLowercase characters : \n");
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar("%c ", ch);
+}
+return (0);
 }
