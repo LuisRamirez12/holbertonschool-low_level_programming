@@ -13,6 +13,11 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 printf("%d is positive\n", n);
-printf("%d Last digit of\n", n);
+else if (n = 98)
+printf("%d is zero\n", n);
+else if (n = -98)
+printf("%d is zero\n", n);
+else if (n = 980)
+printf("%d is zero\n", n);
 return (0);
 }
