@@ -8,10 +8,10 @@ int main(void)
 {
 char c = 'A';
 while (c <= 'Z')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
-	return (0);
+{
+putchar(c);
+c++;
+}
+putchar('\n');
+return (0);
 }
