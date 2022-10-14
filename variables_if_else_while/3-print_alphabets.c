@@ -7,7 +7,7 @@
 int main(void)
 {
 	char c = 'A';
-	while(c<='Z')
+	while (c <= 'Z')
 	{
 		putchar(c);
 		c++;
