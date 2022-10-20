@@ -1,21 +1,12 @@
-#include <stdio.h>
-
-void reset_to_98(int *);
+#include "main.h"
 
 /**
  * main - check the code
  *
  * return: Always 0.
  */
-int main(void)
+void reset_to_98(int *);
 {
-	int n = 98;
 
-
-	n = 98;
-	n = 402;
-	printf("n=%d", n);
-	reset_to_98(&n);
-	printf("n=%d", n);
-	return (0);
+	*n= 98;
 }
