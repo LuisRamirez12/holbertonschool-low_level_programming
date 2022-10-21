@@ -20,8 +20,8 @@ else if (n % 987 > 0)
 
 printf("Last digit of %d is 0 and is 0\n", n % 987);
 
-else if (n % 6> 0)
+else if (n % -98> 0)
 
-printf("Last digit of %d and is less than 6 and not 0\n", n % 6);
+printf("Last digit of %d and is less than 6 and not 0\n", n % -98);
 return(0);
 }
