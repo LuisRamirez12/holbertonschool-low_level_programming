@@ -1,5 +1,4 @@
 #include "main.h"
-#include <strlen>
 
 /**
  * main - check the code
@@ -8,9 +7,12 @@
  */
 int _strlen(char *s);
 {
-	char *str;
-	int len;
+	int length = 0;
 
-	str = "My first strlen!";
-	len = _strlen(str);
+	while (*s != '\0')
+	{
+		s++
+		length++;
+	}
+	return (length);
 }
