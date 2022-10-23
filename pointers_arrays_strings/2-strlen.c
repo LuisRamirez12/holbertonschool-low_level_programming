@@ -8,11 +8,12 @@
 int _strlen(char *s);
 int main(void)
 {
-		char *str;
-			int len;
+	int length = 0;
 
-				str = "Holberton!";
-					len = _strlen(str);
-						printf("%d\n", len);
-							return (0);
+		while (*s != '\0')
+				{
+							s++;
+									length++;
+										}
+			return (length);
 }
