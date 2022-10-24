@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Main - check the code
- *
- * Return: Always 0.
+ * swap_int - check code
+ * @a:indica lo que mostrara en b
+ * @b:indica lo que mostrara en a
  */
 void swap_int(int *a, int *b)
 {
